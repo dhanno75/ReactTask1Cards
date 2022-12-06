@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #007bff !important;
+  padding: 30px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.head {
+  font-weight: 700;
+}
+
+.disable {
+  opacity: 0.6;
+}
+
+/* I had to use important so many times because the bootstrap classes did not budge unless important is added */
+.btn {
+  border-radius: 50px !important;
+  text-transform: uppercase;
+  font-weight: 700 !important;
+  padding: 12px !important;
+  opacity: 0.7;
+}
+
+.cardClass {
+  padding: 15px;
+  border-radius: 15px !important;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+  transition: all 0.2s;
+}
+
+.cardClass:hover {
+  transform: translateY(-4px);
+}
+
+.cardClass:hover .btn {
+  opacity: 1;
+}
+
+.card-price {
+  font-size: 50px !important;
+}
+
+.period {
+  font-size: 15px;
+}
+
+.icons {
+  margin-right: 8px;
+}
