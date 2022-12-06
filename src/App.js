@@ -59,3 +59,4 @@ function App() {
 }
 
 export default App;
+// Delay in uploading the task because on 06-12-2022 we learnt how to upload react application to netlify
